@@ -64,12 +64,7 @@ if(empty($firstname)){
 		echo "<div class='alert-danger text-center'>Username is required!</div>". '<br/>'; 
 		header("refresh:5; url=signup.php");
 echo "</div>";
-}
-
-
-
-
-else{
+}else{
 
 $sql = "INSERT INTO signupform (firstname, lastname, email, username, password, password2) VALUES ('$firstname', '$lastname', '$email', '$username', '$password', '$password2')";
 
@@ -84,10 +79,9 @@ mysqli_query($conn, $sql);
 
 }
 
-
-
-
 ?>
+
+<!-- HTML Form Section -->
 
 <div class="container">
 	<h2 class="text-center text-danger">Registration Form</h2>
@@ -150,10 +144,6 @@ mysqli_query($conn, $sql);
 </table>
 	 
 </div>
-
-
-
-
 
 
 <style type="text/css">

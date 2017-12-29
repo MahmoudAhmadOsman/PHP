@@ -12,10 +12,10 @@
 
 
 /*
-	|* After the user logs out, redirect to the login page again
+	|* After the user logs out, redirect to the login page again!
 */
 
-header("Location: index.php"); 
+header("Location: index.php"); //This will redirect the user to the login page!
 exit();
 
 

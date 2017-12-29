@@ -2,7 +2,7 @@
 /*
 	|*  LOG OUT PAGE
 	|*  Start the session
-	|*  Unset the date
+	|*  Unset the session
 	|*  Destroy the session
 */
  

@@ -1,3 +1,5 @@
+<!-- HTML signup form and PHP  -->
+
 <?php
 	$servername = 'localhost';
 	$username = 'root';

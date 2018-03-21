@@ -146,6 +146,10 @@ mysqli_query($conn, $sql);
 </div>
 
 
+
+
+<!-- CSS Style -->
+
 <style type="text/css">
 .sign-up {
 	margin: 5px auto;

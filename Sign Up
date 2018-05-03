@@ -1,4 +1,4 @@
-<!-- HTML signup form and PHP  -->
+<!-- HTML signup form with Bootstrap and PHP  -->
 
 <?php
 	$servername = 'localhost';

@@ -82,72 +82,52 @@ mysqli_query($conn, $sql);
 ?>
 
 <!-- HTML Form Section -->
-
 <div class="container">
-	<h2 class="text-center text-danger">Registration Form</h2>
-	<p class="lead text-center text-info">Please, fill out the form and provide all the neccessary information.</p>
-<table class="table-reponsive sign-up">
-
-<form class="form-group" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
-		<tr>
-	<td>First Name:</td>
-	<td>
-		<input type="text" class="form-control" name="firstname" placeholder="First name is required*">
-	</td>
-</tr>
-	<tr>
-	<td>Last Name:</td>
-	<td>
-		<input type="text" class="form-control" name="lastname" placeholder="Last name is required*">
-	</td>
-</tr>
-
-	<tr>
-	<td>Email Address:</td>
-	<td>
-		<input type="email" class="form-control" name="email" placeholder="Email*">
-	</td>
-</tr>
-
-	<tr>
-	<td>User Name:</td>
-	<td>
-		<input type="text" class="form-control" name="username" placeholder="Username">
-	</td>
-</tr>
-
-
-	<tr>
-	<td>Password:</td>
-	<td>
-		<input type="password" class="form-control" name="password" placeholder="Password*">
-	</td>
-</tr>
-<tr>
-	<td>Confirm Password:</td>
-	<td>
-		<input type="password" class="form-control" name="password2" placeholder="Password must be same*">
-	</td>
-</tr>
-
-
-<tr>
-	
-	<td>
-		<input type="submit" name="submit" class="btn btn-info" value="Submit">
-	</td>
-</tr>
-
-
-
-</form>
-</table>
-	 
+    <h2 class="text-center text-danger">Registration Form</h2>
+    <p class="lead text-center text-info">Please, fill out the form and provide all the neccessary information.</p>
+    <table class="table-reponsive sign-up">
+        <form class="form-group" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" class="form-control" name="firstname" placeholder="First name is required*">
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    <input type="text" class="form-control" name="lastname" placeholder="Last name is required*">
+                </td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td>
+                    <input type="email" class="form-control" name="email" placeholder="Email*">
+                </td>
+            </tr>
+            <tr>
+                <td>User Name:</td>
+                <td>
+                    <input type="text" class="form-control" name="username" placeholder="Username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" class="form-control" name="password" placeholder="Password*">
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td>
+                    <input type="password" class="form-control" name="password2" placeholder="Password must be same*">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" class="btn btn-info" value="Submit">
+                </td>
+            </tr>
+        </form>
+    </table>
 </div>
-
-
-
-
-
-
-

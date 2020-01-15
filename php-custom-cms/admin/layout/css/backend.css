@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    width: auto;
+    min-height: 1200px;
+ /*   background-color: #f4f4f4;*/    
+background-color: #fff;
+margin: 90px 93px;
+}
+
+form {
+    border: 1px solid #C6C6C6;
+    padding: 10px 30px 30px 30px;
+}
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login .btn {
+    background-color: #4C2C2C;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.login .btn:hover {
+    background-color: #499A2D;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #E5E1E1;
+}

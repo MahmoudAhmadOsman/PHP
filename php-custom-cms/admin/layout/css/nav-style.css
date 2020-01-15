@@ -1,0 +1,109 @@
+/*========== Start of Toggle Focus ==================*/
+
+.navbar-inverse{
+	background-color: #160A3B;
+    border-color: #160A3B;  
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #d82121;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    /* border-radius: 4px; */
+}
+
+
+
+
+
+
+/*========== End of Toggle Focus ==================*/
+
+
+/*=======Navbar header ============*/
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-right: 44px;
+    margin-left: 0;
+}
+
+.navbar-brand {
+    float: left;
+    /* height: 50px; */
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 1.4em;
+    color: #fff;
+    font-family: Charcoal, sans-serif;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #ffc;
+}
+
+.navbar-brand span {
+    color: #D13535;
+    /*font-size: 1.6em;*/
+    text-align: left;
+}
+
+
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #D13535;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    width: 220px;
+    margin: 10px 0px;
+    left: 0px;
+    right: auto;
+    background-color: #111;
+    line-height: 18px;
+    border-top: 1px solid #D13535;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.navbar-nav>li>.dropdown-menu a {
+    color: #fff;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.navbar-nav>li>.dropdown-menu a:hover {
+    color: #fff;
+    background-color: #D13535;
+}

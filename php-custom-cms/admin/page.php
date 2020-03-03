@@ -13,7 +13,7 @@ $do = isset($_GET['do'])? $_GET['do']: 'Manage';
 //if the page is the Main page, then do this
 
 if($do == "Manage"){
-	echo "Welcome, You are in the Manage Catagory page";
+	echo "Welcome, Manage Catagory";
 	echo '<a href="page.php?do=Add"> Add New Catagory';
 
 }elseif ($do =="Add") {

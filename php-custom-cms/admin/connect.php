@@ -10,7 +10,7 @@ $option = array(
 try{
 	$con = new PDO($dsn, $user , $pass, $option);
 	$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	// echo "You are connected successfully. Welcome to Dabase";
+	// echo "You are connected successfully. Welcome to Database";
 }
 
 catch(PDOEXCEPTION $e){

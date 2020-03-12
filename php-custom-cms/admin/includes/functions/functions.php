@@ -1,5 +1,5 @@
 <?php
-//Display: Daynamic Title
+//Display Daynamic Title
 
 
 function getTitle() {

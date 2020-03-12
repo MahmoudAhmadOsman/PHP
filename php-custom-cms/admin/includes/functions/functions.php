@@ -1,5 +1,5 @@
 <?php
-//Display: Titles for all pages, and display default for other pages that that doesn't have a title function in it.
+//Display: Daynamic Title
 
 
 function getTitle() {
